@@ -1,0 +1,102 @@
+.leaflet-control-custom {
+	background-color: #fff;
+	border: 2px solid #ccc;
+	border-radius: 5px;
+	cursor: pointer;
+	width: 30px;
+	height: 30px;
+	text-align: center;
+	line-height: 30px;
+	font-size: 20px;
+	font-weight: bold;
+	box-shadow: 0 0 5px rgba(0,0,0,0.3);
+	position: relative;
+}
+
+.leaflet-control-accordion {
+	display: none;
+	position: absolute;
+	top: 35px;
+	left: 0;
+	background-color: #fff;
+	border: 2px solid #ccc;
+	border-radius: 5px;
+	box-shadow: 0 0 5px rgba(0,0,0,0.3);
+	width: 300px;
+	z-index: 1000;
+	padding: 10px;
+}
+
+.accordion-button {
+	background-color: royalblue; //#4CAF50;
+	margin-top: 12px;
+	color: white;
+	border: none;
+	cursor: pointer;
+	width: 95%;
+	text-align: left;
+	padding: 10px;
+	border-radius: 5px;
+	font-weight: bold;
+	font-size: 16px;
+}
+
+.accordion-content {
+	padding: 10px;
+}
+
+.accordion-content input[type="text"] {
+	width: 95%;
+	padding: 5px;
+	margin-bottom: 10px;
+}
+
+.accordion-content select {
+	width: 100%;
+	padding: 5px;
+	margin-bottom: 10px;
+}
+
+.accordion-content button {
+	width: 100%;
+	padding: 10px;
+	background-color: maroon; //#4CAF50;
+	color: white;
+	border: none;
+	border-radius: 5px;
+	cursor: pointer;
+	font-size: 16px;
+	margin-bottom: 5px;
+}
+
+.layer-selection-popup {
+	max-height: 500px;
+	width: max-content;
+	background-color: white;
+	overflow-y: auto;
+}
+
+.leaflet-popup-content {
+  align-items: center;
+  justify-content: center;
+  width: auto !important; /* Set width to auto */
+  max-width: 100%; /* Ensure the content does not exceed the available width */
+  font-size: 18px;
+}
+
+.layer-selection-popup label {
+    display: block; /* Stack labels vertically */
+    margin-bottom: 5px; /* Add spacing between labels */
+}
+
+.layer-selection-popup button {
+    display: block;
+    width: 100%;
+    padding: 10px;
+    margin-top: 10px;
+    text-align: center;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+}
