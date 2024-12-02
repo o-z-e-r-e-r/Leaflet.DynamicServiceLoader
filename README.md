@@ -55,6 +55,7 @@ View a live demo of the plugin:
 ## Instructions for Including the Plugin
 
 1. **Include Leaflet Library**:  
+
    Add Leaflet JavaScript and CSS files to your HTML:
    ```html
    <script src="https://unpkg.com/leaflet/dist/leaflet.js"></script>
@@ -62,12 +63,14 @@ View a live demo of the plugin:
    ```
 
 2. **Include Dependency**:   
+
    Add WMTS dependency to your HTML file:
    ```html
    <script src="lib/leaflet-tilelayer-wmts.js.js"></script>
    ```
    
 3. **Include DynamicServiceLoader Plugin**:  
+
    Add DynamicServiceLoader JavaScript and CSS files to your HTML:
    ```html
    <script src="dist/Leaflet.DynamicServiceLoader.js"></script>
@@ -75,6 +78,7 @@ View a live demo of the plugin:
    ```
    
 4. **Initialize map and add DynamicServiceLoader tool**:
+
    ```html
    // Initialize the map
    var map = L.map('map').setView([50, 25], 5);
