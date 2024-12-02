@@ -61,10 +61,10 @@ View a live demo of the plugin:
    <link rel="stylesheet" href="https://unpkg.com/leaflet/dist/leaflet.css" />
    ```
 
-2. **Include Dependent Library**:   
+2. **Include Dependency**:   
    Add WMTS dependency to your HTML file:
    ```html
-   <script src="https://cdn.jsdelivr.net/npm/leaflet-tilelayer-wmts@1.0.4/leaflet-tilelayer-wmts.js"></script>
+   <script src="lib/leaflet-tilelayer-wmts.js.js"></script>
    ```
    
 3. **Include DynamicServiceLoader Plugin**:  
