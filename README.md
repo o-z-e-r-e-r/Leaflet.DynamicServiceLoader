@@ -1,6 +1,6 @@
 # Leaflet.DynamicServiceLoader
 
-**Leaflet.DynamicServiceLoader** is a Leaflet plugin that enables users to dynamically add and manage WMS and WMTS map services directly from the client side. This tool eliminates the need for pre-configured services in the HTML or JavaScript code, making it highly flexible and user-friendly for non-developers.
+**Leaflet.DynamicServiceLoader** is a Leaflet plugin that enables users to dynamically add and manage WMS and WMTS directly from the client side. This tool eliminates the need for pre-configured services in the HTML or JavaScript code, making it highly flexible and user-friendly for non-developers.
 
 ---
 
