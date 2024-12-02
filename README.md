@@ -7,21 +7,17 @@
 ## Features
 
 - **Dynamic Service Management**:
-  - Add WMS and WMTS (GeoServer and Esri) services at runtime via a simple user interface.
+  - Add WMS and WMTS (GeoServer and Esri) at runtime via a simple user interface.
   - Fetch and display available layers for selection.
   - Add selected layers to the map dynamically.
 
 - **Layer Management**:
-  - Options to select all layers, deselect layers, and clear all added layers.
+  - Options to select all layers, deselect layers and clear all added layers.
   - Supports dynamic attribution and interactivity.
 
-- **Client-Side Functionality**:
+- **Client Side Functionality**:
   - No need to modify HTML or JavaScript to add new services.
   - Fully interactive and controlled by end-users.
-
-- **Custom Styling and Intuitive Interface**:
-  - Accordion-style interface for selecting and managing layers.
-  - Styled buttons for "Add Selected Layers," "Clear Layers," and more.
 
 ---
 
@@ -48,7 +44,6 @@
 
 View a live demo of the plugin:
 [Demo Link](https://o-z-e-r-e-r.github.io/Leaflet.DynamicServiceLoader/)
-
 
 ---
 
@@ -100,7 +95,7 @@ View a live demo of the plugin:
     
 2.  **Select a service type** (WMS or WMTS).
     
-3.  **Enter the URL** for the WMS/WMTS service.
+3.  **Enter the URL** for the WMS/WMTS.
     
 4.  Click **"Show Layers"** to fetch available layers.
     
@@ -110,9 +105,9 @@ View a live demo of the plugin:
     
 7.  Manage layers:
     
-    *   Use **"Clear Layers"** to remove all added layers.
+    * Use **"Remove Selected Layers"** to deselect layers.
         
-    *   Use **"Remove Selected Layers"** to deselect layers.
+    * Use **"Clear Layers"** to remove all added layers.
 	
 ---
 
