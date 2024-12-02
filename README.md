@@ -44,7 +44,7 @@
 
 ## Demo
 
-![Demo Video](https://o-z-e-r-e-r.github.io/Leaflet.DynamicServiceLoader/examples/demo_video.gif)
+![Demo Animation](examples/demo_video.gif)
 
 View a live demo of the plugin:
 [Demo Link](https://o-z-e-r-e-r.github.io/Leaflet.DynamicServiceLoader/)
