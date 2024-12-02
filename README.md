@@ -73,8 +73,8 @@ View a live demo of the plugin:
 
    Add DynamicServiceLoader JavaScript and CSS files to your HTML:
    ```html
-   <script src="dist/Leaflet.DynamicServiceLoader.js"></script>
-   <link rel="stylesheet" href="dist/Leaflet.DynamicServiceLoader.css"/>
+   <script src="dist/Leaflet.DynamicServiceLoader.min.js"></script>
+   <link rel="stylesheet" href="dist/Leaflet.DynamicServiceLoader.min.css"/>
    ```
    
 4. **Initialize map and add DynamicServiceLoader tool**:
