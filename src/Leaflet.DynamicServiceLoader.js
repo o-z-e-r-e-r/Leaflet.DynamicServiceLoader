@@ -257,5 +257,3 @@ L.Control.DynamicServiceLoader = L.Control.extend({
 L.control.dynamicServiceLoader = function (opts) {
     return new L.Control.DynamicServiceLoader(opts);
 };
-
-L.control.dynamicServiceLoader().addTo(map);
